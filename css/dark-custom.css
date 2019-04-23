@@ -1,0 +1,19 @@
+.color-bg {background:#ed259070!important}
+h2.color{color:#ed259070!important}
+h3.color{color:#ed259070!important}
+h4.color{color:#ed259070!important}
+h5.color{color:#ed259070!important}
+h6.color{color:#ed259070!important}
+p.color{color:#ed259070!important}
+::selection {
+    background: #ed259070!important;
+    color: #a7a7a7!important;
+}
+button.color{background:#ed2590!important;}
+button.color:hover{color:#ed2590!important}
+.header, header {
+    background: #ed259070!important;
+}
+.footer, footer {
+    background: #ed259050!important;
+}
