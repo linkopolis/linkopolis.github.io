@@ -109,13 +109,36 @@ page = new Page()
 </script></zeronet>
 </article>
 <comments>
-<h1 id="comments"><i class="material-icons">comment</i> Comments <span class="badge"></span></h1>
+<h1 id="comments"><i class="material-icons">comment</i> Comments <span class="badge"><a href="https://linkopolis.github.io/#disqus_thread">Loading...</a></span></h1>
 <blockquote>
+<clearnet>
+<div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://linkopolis.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                            
+</clearnet>
 <zeronet>ZeroNet doesn't have a commenting system yet.</zeronet>
 </blockquote>
 </comments>
 <footer><div class="footer-shadow"></div>
-<center>Last update in 24/04/2019 at 21:05</center><a href="https://plasnerd.github.io/Framework.js/" target="blank"><img src="https://plasnerd.github.io/Framework.js/img/seal-2.png" width="167px" title="Built with FrameworkJS" style="-webkit-user-drag:element"></a><a href="https://plasnerd.github.io/PEHTML/" target="blank"><img src="https://plasnerd.github.io/PEHTML/img/seal-2.png" width="167px" height="94px" style="-webkit-user-drag:element"></a>
+<center>Last update in 25/04/2019 at 00:32</center><a href="https://plasnerd.github.io/Framework.js/" target="blank"><img src="https://plasnerd.github.io/Framework.js/img/seal-2.png" width="167px" title="Built with FrameworkJS" style="-webkit-user-drag:element"></a><a href="https://plasnerd.github.io/PEHTML/" target="blank"><img src="https://plasnerd.github.io/PEHTML/img/seal-2.png" width="167px" height="94px" style="-webkit-user-drag:element"></a>
 <div class="social-icons">
 <a href="https://riot.im/app/#/room/#linkopolis:matrix.org" target="blank"><img src="img/social/riot.png" width="40px" height="40px" title="Chat with us or get support" alt="Riot.im" class="round"></a>
 <a href="https://matrix.to/#/#linkopolisnews:matrix.org" target="blank"><img src="img/social/riot.png" width="40px" height="40px" title="Enable notifications for our updates" alt="Riot.im" class="round"></a>
@@ -124,7 +147,7 @@ page = new Page()
 <copyright><center>2017-2019 Linkopolis by <a href="https://openplanetinitiative.github.io/" target="blank">Open Planet Initiative</a>.</center></copyright>
 </footer>
 </div>
-<clearnet><script id="dsq-count-scr" src="//framework-js.disqus.com/count.js" async></script></clearnet>
+<clearnet><script id="dsq-count-scr" src="//linkopolis.disqus.com/count.js" async></script></clearnet>
 </div>
 
 <!--  <script type="text/javascript" src="plugins/UmbrellaJS/umbrella.min.js"></script>
